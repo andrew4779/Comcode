@@ -8,7 +8,7 @@ Just asimple-1 application
 * Clone the repo :{git clone https://github.com/andrew4779/Simple-1.git }
 * No server or dependencies needed to run the code.
 ## Live link
-
+https://andrew4779.github.io/Simple-1/
 ## Known Bugs
 The navigation bar isn't functioning as expected
 ## Technologies Used
