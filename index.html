@@ -1,341 +1,389 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>My portfolio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="https://media.istockphoto.com/photos/portfolio-enter-key-picture-id186871304?b=1&k=20&m=186871304&s=170667a&w=0&h=k1ou3RvKl6lQlXd4MrzlVm1MlxA9FNeMjtY3O4ujOA0=">
+    <link rel="shortcut icon"
+        href="https://media.istockphoto.com/photos/portfolio-enter-key-picture-id186871304?b=1&k=20&m=186871304&s=170667a&w=0&h=k1ou3RvKl6lQlXd4MrzlVm1MlxA9FNeMjtY3O4ujOA0=">
     <style>
-      *{
-        font-family: 'Josefin Sans', sans-serif;
-        margin: 0;
-        padding: 0;
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+            margin: 0;
+            padding: 0;
 
-      }
+        }
+
         /* Make the image fully responsive */
         .carousel-inner img {
-          width: 100%;
-          height: 700px;
+            width: 100%;
+            height: 700px;
         }
-        .col-md-4 img{
-          margin: 5px;
+
+        .col-md-4 img {
+            margin: 5px;
         }
-        html{
-          scroll-behavior: smooth;
+
+        html {
+            scroll-behavior: smooth;
         }
-        </style>
+    </style>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-      <header>
-            <nav id="home" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">
+    <header>
+        <nav id="home" class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
 
-                    <img src="https://images.unsplash.com/photo-1586150404442-178deca438e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8OTU1NDI0NTV8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" width="135" height="45" alt="">
-                </a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home   </a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about">About</a>
-                        </li>                
-                        <li class="nav-item">
-                          <a class="nav-link" href="#services">Services</a>
-                        </li>                
-                        <li class="nav-item">
-                          <a class="nav-link" href="#gallery">Gallery</a>
-                        </li>
+                <img src="https://images.unsplash.com/photo-1586150404442-178deca438e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8OTU1NDI0NTV8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    width="135" height="45" alt="">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
 
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-        
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About Page</a>
-                        </li>        
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
 
-
-            <div id="demo" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Page</a>
+                    </li>
                 </ul>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="https://media.istockphoto.com/photos/panorama-of-uhuru-park-in-nairobi-kenya-picture-id1132846387?b=1&k=20&m=1132846387&s=170667a&w=0&h=_hJ6u3TIY7SwCcG4YO2Cy6lXqYrcRJYvFhMvNSSNYog=100" alt="Nairobi" width="1100" height="50vh">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1517462035531-76bc910a6903?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5haXJvYmklMjBjaXR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Nairobi" width="1100" height="50vh">
                     <div class="carousel-caption">
-                      <h3>Nairobi</h3>
-                      <p>We had such a great time in Nairobi!</p>
-                    </div>   
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://media.istockphoto.com/photos/lake-nakuru-in-kenya-picture-id603153650?b=1&k=20&m=603153650&s=170667a&w=0&h=3PsUp5aIjJcM5JtdpH8VUDef5yPmg80Z2pHrsZ3qcjA=" alt="Nakuru" width="1100" height="50vh">
-                    <div class="carousel-caption">
-                      <h3>Nakuru</h3>
-                      <p>Thank you, Nakuru!</p>
-                    </div>   
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://media.istockphoto.com/photos/guts-bridge-mombasa-picture-id1170775456?b=1&k=20&m=1170775456&s=170667a&w=0&h=QN22YUk-Fzele6TWzlRYlTBaAf0YvMX85QGejhsOIAM=" alt="Mombasa" width="1100" height="50vh">
-                    <div class="carousel-caption">
-                      <h3>Mombasa</h3>
-                      <p>We love everything</p>
-                    </div>   
-                  </div>
+                        <h3>Nairobi</h3>
+                        <p>We had such a great time in Nairobi!</p>
+                    </div>
                 </div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-              
-        </header>
-      <main>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/photos/lake-nakuru-in-kenya-picture-id603153650?b=1&k=20&m=603153650&s=170667a&w=0&h=3PsUp5aIjJcM5JtdpH8VUDef5yPmg80Z2pHrsZ3qcjA="
+                        alt="Nakuru" width="1100" height="50vh">
+                    <div class="carousel-caption">
+                        <h3>Nakuru</h3>
+                        <p>Thank you, Nakuru!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://media.istockphoto.com/photos/guts-bridge-mombasa-picture-id1170775456?b=1&k=20&m=1170775456&s=170667a&w=0&h=QN22YUk-Fzele6TWzlRYlTBaAf0YvMX85QGejhsOIAM="
+                        alt="Mombasa" width="1100" height="50vh">
+                    <div class="carousel-caption">
+                        <h3>Mombasa</h3>
+                        <p>We love everything</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </header>
+    <main>
         <!-- about us -->
         <section id="about" class="pt-5">
-          <div class="container my-2">
+            <div class="container my-2">
 
-            <h2 class="text-center pt-5">About Us</h2>
-            <hr class="bg-dark w-25 mr-auto mx-auto " >
+                <h2 class="text-center pt-5">About Us</h2>
+                <hr class="bg-dark w-25 mr-auto mx-auto ">
 
-            <div class="row mt-4">
-                <div class=" col-md-6 ">
-                  <img src="https://images.unsplash.com/photo-1563906267088-b029e7101114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWJvdXQlMjB1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                <div class="row mt-4">
+                    <div class=" col-md-6 ">
+                        <img src="https://images.unsplash.com/photo-1563906267088-b029e7101114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWJvdXQlMjB1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            class="img-fluid" alt="">
+
+                    </div>
+                    <div class="col-md-6 line-height-2">
+                        <h3 class="text-capitalize mb-2">who am i</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio provident nihil
+                            mollitia recusandae esse temporibus dolor! Aliquid facere dicta et nulla consectetur,
+                            aperiam nesciunt dolorum, accusantium culpa tempore voluptas. Nulla, voluptate saepe.
+                            Ratione quod, quae quasi tempore, quis numquam ex qui consequuntur amet vitae obcaecati?
+                            Dolores, atque praesentium eos nihil pariatur, repellat est deleniti, dolorem repellendus
+                            aut exercitationem unde aperiam. Illo magni accusantium nihil incidunt dolor molestiae totam
+                            temporibus saepe fugit officia quia animi maiores, dignissimos et soluta ipsa ipsum dicta
+                            quam ab mollitia eligendi? Consequatur dolorum veritatis veniam nisi omnis praesentium
+                            eveniet illo magnam, voluptas incidunt rem aut.
+                        </p>
+                        <button class="btn btn-dark">Wanna know me</button>
+                    </div>
+
 
                 </div>
-                <div class="col-md-6 line-height-2">
-                  <h3 class="text-capitalize mb-2">who am i</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda optio provident nihil mollitia recusandae esse temporibus dolor! Aliquid facere dicta et nulla consectetur, aperiam nesciunt dolorum, accusantium culpa tempore voluptas. Nulla, voluptate saepe. Ratione quod, quae quasi tempore, quis numquam ex qui consequuntur amet vitae obcaecati? Dolores, atque praesentium eos nihil pariatur, repellat est deleniti, dolorem repellendus aut exercitationem unde aperiam. Illo magni accusantium nihil incidunt dolor molestiae totam temporibus saepe fugit officia quia animi maiores, dignissimos et soluta ipsa ipsum dicta quam ab mollitia eligendi? Consequatur dolorum veritatis veniam nisi omnis praesentium eveniet illo magnam, voluptas incidunt rem aut.
-                  </p>
-                  <button class="btn btn-dark">Wanna know me</button>
-                </div>
 
-
-              </div>
-
-            </div>  
+            </div>
         </section>
 
 
         <section class="mt-5 pt-5" id="services">
-          <div class="container mt-5">
-            
-            <h2 class="text-center pt-5">Services</h2>
-            <hr class="bg-dark w-25  mx-auto " >
+            <div class="container mt-5">
 
-            <div class="row">
+                <h2 class="text-center pt-5">Services</h2>
+                <hr class="bg-dark w-25  mx-auto ">
 
-              <div class="col-md-4 col-sm-12">
-                <div class="card text-center" >
-                  <img class="card-img-top" src="https://media.istockphoto.com/photos/computer-tablet-showing-finished-kitchen-on-house-plans-pencil-picture-id522558862?b=1&k=20&m=522558862&s=170667a&w=0&h=4ODMCjEYF5FBj249OLs6VTgCGz5eqgHHtsHWZ73ITb8=" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Desgining</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Yes</a>
-                  </div>
+                <div class="row">
+
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card text-center">
+                            <img class="card-img-top"
+                                src="https://media.istockphoto.com/photos/computer-tablet-showing-finished-kitchen-on-house-plans-pencil-picture-id522558862?b=1&k=20&m=522558862&s=170667a&w=0&h=4ODMCjEYF5FBj249OLs6VTgCGz5eqgHHtsHWZ73ITb8="
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Desgining</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Yes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img class="card-img-top"
+                                src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?b=1&k=20&m=1295900106&s=170667a&w=0&h=kQ2UWilU4Bild5aP03CaF65gMbSI-chG--7dd2oS8GM="
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Development</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Why Not</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <img class="card-img-top"
+                                src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwyNTQ4MTg3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Maintenance</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-dark">Definitely</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-4">
-                <div class="card text-center" >
-                  <img class="card-img-top" src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?b=1&k=20&m=1295900106&s=170667a&w=0&h=kQ2UWilU4Bild5aP03CaF65gMbSI-chG--7dd2oS8GM=" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Development</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Why Not</a>
-                  </div>
-                </div>
-              </div>                
-              <div class="col-md-4">
-                <div class="card text-center" >
-                  <img class="card-img-top" src="https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NHwyNTQ4MTg3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Maintenance</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Definitely</a>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
 
         </section>
         <!-- servces end -->
         <!-- cta -->
         <section class="text-capitalize bg-dark text-center my-5 py-5 text-light">
-          <h2>+254 793857337</h2>
-          <h4>call us now</h4>
-          <button class="text-capitalize btn btn-outline-light">
-            call now
-          </button>
+            <br>
+            <h3>Andrew kimani</h3>
+            C.E.O
+            <hr>
+            </br>
+            <h2>+254 793857337</h2>
+            <h4>call us now</h4>
+            <button class="text-capitalize btn btn-outline-light">
+                call now
+            </button>
         </section>
         <!-- cta end -->
         <!-- gallery start -->
         <!-- <section> -->
 
         <section class="mt-5" id="gallery">
-          <div class="container-fluid p-5 mt-5">
-            
-            <h2 class="text-center pt-5">Gallery</h2>
-            <hr class="bg-dark w-25 mx-auto " >
-            <div class="row">
-              <div class="col-md-4 hovereffect">
-                <img src="images/t1.jpg" class="img-fluid" alt="">
-              </div>                  
-              <div class="col-md-4  hovereffect">
-                <img src="images/t2.jpg" class="img-fluid" alt="">
-              </div>                  
-              <div class="col-md-4  hovereffect">
-                <img src="images/t3.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t4.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t5.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t6.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t7.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t8.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="col-md-4  hovereffect">
-                <img src="images/t9.jpg" class="img-fluid" alt="">
-              </div>
-            
+            <div class="container-fluid p-5 mt-5">
+
+                <h2 class="text-center pt-5">Gallery</h2>
+                <hr class="bg-dark w-25 mx-auto ">
+                <div class="row">
+                    <div class="col-md-4 hovereffect">
+                        <img src="https://instagram.fnbo9-1.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/272940336_299162995600008_574895498810088402_n.jpg?_nc_ht=instagram.fnbo9-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=0lfUoS6h7MYAX8Um3ON&edm=ABJHkxYAAAAA&ccb=7-4&ig_cache_key=Mjc2MjIyMjg3NjMzMTAzMjEwNQ%3D%3D.2-ccb7-4&oh=00_AT_5l33yWUR3RO1IKfBc0rd2X4IOjEH4r-VnLNmqmEQ4jg&oe=61FC572B&_nc_sid=fa978c"
+                            class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="https://images.unsplash.com/photo-1477160842278-0609ba502d58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXw5NzM1OTB8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                            class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="https://media.istockphoto.com/photos/show-room-futuristic-picture-id1310193774?b=1&k=20&m=1310193774&s=170667a&w=0&h=TQ7MouYw1V9OExDGUYl852Ik85K7t0MUJ3aYjBtuLNI=" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="https://instagram.fnbo10-1.fna.fbcdn.net/v/t51.2885-15/e35/p240x240/272924375_943518426307633_3638342301399806199_n.jpg?_nc_ht=instagram.fnbo10-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=ca1GTAwCvYAAX9ZGNX6&edm=ABJHkxYAAAAA&ccb=7-4&ig_cache_key=Mjc2MjIyMTUxNjQxMjU5OTI2NA%3D%3D.2-ccb7-4&oh=00_AT-_tQGZd_1UpzKPw2hGjOotBq5ZInc2d1CgHvmVCESz7w&oe=61FC16EC&_nc_sid=fa978c" class="img-fluid" alt="">
+                    </div>
+                     <div class="col-md-4  hovereffect">
+                        <img src="https://media.istockphoto.com/photos/hotel-entrance-hall-picture-id1310193993?b=1&k=20&m=1310193993&s=170667a&w=0&h=e89B8dyiBAFF_VKCrie8KMf5O5FWjAThly2J0aDdQW0=" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="https://images.unsplash.com/photo-1578985824626-945a6f546304?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                    </div>
+                    <!-- <div class="col-md-4  hovereffect">
+                        <img src="images/t7.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-4  hovereffect">
+                        <img src="images/t9.jpg" class="img-fluid" alt="">
+                    </div> -->
+
+                </div>
             </div>
-          </div>
 
 
 
         </section>
         <!-- gallery end -->
         <!-- join now -->
-      
+
         <section class="bg-dark  mt-5 pt-5">
-          <div class=" text-light text-center">
-            <h2>Want to join</h2>
-            <p>Be a part of tech team</p>
-            <button class="btn btn-outline-light"  data-toggle="modal" data-target="#myModal">
-              Join Now
-            </button>
+            <div class=" text-light text-center">
+                <h2>Want to join</h2>
+                <p>Be a part of tech team</p>
+                <button class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">
+                    Join Now
+                </button>
 
-          </div>
-                
-          <!-- The Modal -->
-          <div class="modal fade" id="myModal">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-              
-                <!-- Modal Header -->
-                <div class="modal-header">
-                  <h4 class="modal-title">Sign up</h4>
-                  <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                
-                <!-- Modal body -->
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPassword1">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>
-                    <div class="form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                    <button type="submit" class="btn btn-dark">Submit</button>
-                  </form>
-                </div>
-                
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                  <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-                </div>
-                
-              </div>
             </div>
-          </div>
+
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Sign up</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Password">
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-dark">Submit</button>
+                            </form>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
 
-        </section>   
+        </section>
         <!-- join now end -->
         <!-- contact us form -->
-        
+
         <!-- <section> -->
 
         <section class="" id='contact'>
-          <div class="container-fluid p-5">
-            
-            <h2 class="text-center pt-5">Contact us</h2>
-            <hr class="bg-dark w-25 mx-auto " >
+            <div class="container-fluid p-5">
 
-            <div  class="w-50 mx-auto">
-              <form action="#">
-                <div class="form-group">
-                  <label for="name">Your name:</label>
-                  <input type="text" class="form-control" placeholder="Enter name" id="name">
+                <h2 class="text-center pt-5">Contact us</h2>
+                <hr class="bg-dark w-25 mx-auto ">
+
+                <div class="w-50 mx-auto">
+                    <form action="#">
+                        <div class="form-group">
+                            <label for="name">Your name:</label>
+                            <input type="text" class="form-control" placeholder="Enter name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" placeholder="Enter email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea type="message" class="form-control" placeholder="Enter message" rows="10"
+                                id="message"></textarea>
+                        </div>
+
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox"> Remember me
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-dark d-block mx-auto">Submit</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control" placeholder="Enter email" id="email">
-                </div>
-                <div class="form-group">
-                  <label for="message">Message:</label>
-                  <textarea type="message" class="form-control" placeholder="Enter message" rows="10" id="message" ></textarea>
-                </div>
-                
-                <div class="form-group form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox"> Remember me
-                  </label>
-                </div>
-                <button type="submit" class="btn btn-dark d-block mx-auto">Submit</button>
-              </form>
+
             </div>
 
-          </div>
-        
         </section>
 
-              
-      </main>
-      <footer class="text-center  vertical-align-middle bg-dark text-light p-1 pt-3">
-        <p>Copyright all rights reserved</p>
-      </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    </main>
+    <footer class="text-center  vertical-align-middle bg-dark text-light p-1 pt-3">
+        <p>Copyright all rights reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
